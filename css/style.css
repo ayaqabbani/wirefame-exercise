@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+        background-color: white;
+        text-align: center;
+    }
+    header{
+        background-color: rgb(51, 51, 51);
+        text-align: center;
+    }
+    header nav img{
+        height: 70px;
+        width: 200px;
+        margin:5px;
+
+    }
+    header nav ul li{
+        display: inline-block;
+        /* margin: 5px; */
+        color: #8d8a8a;
+        margin-bottom: 30px;
+        
+    }
+    main{
+        background-color: white;
+    }
+    main div img{
+        height: 450px;
+        width: 900px;
+        margin: 20px;
+    }
+    main section img{
+        width: 20%;
+        margin: 30px;
+    }
+
+    main section:nth-child(3) img{
+        float: left;
+        width:480px;
+        margin-left: 190px;
+    }
+
+    main section p{
+        width:40%;
+        
+    }
+    main button {
+        border: solid 20px;
+        background-color: black;
+        color: white; 
+        position: absolute;
+        height: 70px;
+        width: 15%  ;
+        bottom: -900px;
+     }
+     main button:hover {
+         background-color: rgb(54, 50, 51);
+      }
+      footer{
+        background-color: rgb(65, 64, 64);
+        height: 70px;
+     }
+    /* nav img{
+     float: left;
+       padding-left: 190px;
+    }
+    nav li{
+        display: inline-block;
+        color: white;
+        margin-left: 50px;
+      margin-top: 30px;
+    }
+    main img{
+        color: black;
+        padding-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+       
+    
+    }
+    main div img {
+        
+        width: 15% ; 
+        padding-top: 20px;
+        
+    }
+    main div :nth-child(2) {
+     
+        width: 15%  ;
+        position: absolute;
+        left: 380px;
+         top: 456px;
+        padding-top: 20px;
+        
+    }
+    main div :nth-child(3) {
+       
+        width: 15%  ;
+        position: absolute;
+        right: 380px;
+         top: 456px;
+         padding-top: 20px;
+        
+    }
+    main :nth-child(3) {
+       
+        width: 60%  ;
+        position: relative;
+        right: -120px;
+       
+        
+    }
+    main textarea{
+        overflow: auto;
+        position: absolute;
+        right: 372px;
+         top: 808px;
+         width: 20%  ;
+         height: 40%;
+    
+    }
+    
+    main button {
+       border-radius: 20px;
+       background-color: black;
+       color: white; 
+       position: absolute;
+       right: 370px;
+       width: 20%  ;
+        bottom: -440px;
+    }
+    main button:hover {
+        background-color: pink;
+        
+     }
+     
+     footer{
+        background-color: black;
+        height: 70px;
+     } */
